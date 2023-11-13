@@ -1,0 +1,7 @@
+
+# ignore heading step by 1
+MD001: false
+
+# line length 200
+MD013:
+  line_length: 200

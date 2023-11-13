@@ -1,0 +1,52 @@
+navigation: false
+hero:
+  cta:
+    label: Get Discite
+    to: /
+    variant: outline
+    icon: i-ph-arrow-right
+    size: xs
+    trailing: true
+    class: 'font-semibold hover:bg-primary-100 dark:hover:bg-primary-900 rounded-full'
+sections:
+  - title: 'What if learning was on your terms?<br>Learn because you <span class="text-primary">want to.</span>'
+    class: 'dark:bg-gradient-to-b from-gray-900 to-gray-950'
+    slot: features
+    features:
+      - title: 'Mobile App'
+        description: 'Most people consume their content on phones. We want to meet you where you are.'
+        icon: 'i-ph-app-store-logo-fill'
+        to: '/docs/architecture/frontend'
+      - title: 'Shortform Content'
+        description: 'Learn with short-form and engaging content in place of long and boring videos.'
+        icon: 'i-ph-exclude-square-duotone'
+        to: '/'
+      - title: 'Learning Paths'
+        description: 'Flow naturally through a sequence of clips addressing smaller topics as you learn a bigger topic.'
+        icon: 'i-ph-signpost-duotone'
+        to: '/'
+      - title: 'Real-Time Streaming'
+        description: 'HLS-backed streaming for real-time playback with minimal buffering. Do not worry about downloads; we have you covered.'
+        icon: 'i-ph-stack-duotone'
+        to: '/docs/architecture/streaming'
+      - title: 'Persistent Data'
+        description: 'Do not worry about losing your progress across your learning paths. We have that covered.'
+        icon: 'i-ph-database-duotone'
+        to: '/docs/architecture/database'
+      - title: 'Robust Platform'
+        description: 'Well-tested and well-documented codebase to ensure that we can scale to meet your needs.'
+        icon: 'i-ph-steps-light'
+        to: '/'
+      - title: 'Multi-Modal Clipping'
+        description: 'We use ML algorithms to understand what is happening in both the video and the transcript for robust sectioning og videos.'
+        icon: 'i-ph-arrows-in-line-vertical-bold'
+        to: '/docs/architecture/machine-learning'
+      - title: 'User/Content Engagement'
+        description: 'Ability to connect with and share content with other users. You can also comment on content and reply to other users.'
+        icon: 'i-ph-slack-logo'
+        to: '/'
+  - title: 'Built by developers<br><span class="text-primary">who love their craft.</span>'
+    description: 'We are a team of six <span class="text-primary">computer science </span> majors.<br/>We have varying interests, and we inspire and motivate each other.'
+    class: 'dark bg-gray-900'
+    align: right
+    slot: contributors
