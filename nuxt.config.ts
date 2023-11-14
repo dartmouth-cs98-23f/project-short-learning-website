@@ -1,6 +1,3 @@
-import { ofetch } from 'ofetch'
-import { logger } from '@nuxt/kit'
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: process.env.NUXT_UI_PRO_PATH || '@nuxt/ui-pro',
@@ -14,11 +11,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxthq/studio',
     '@vueuse/nuxt',
-    'nuxt-og-image',
-    () => {
-      if (process.env.NUXT_DOCS_PATH) { logger.success(`Using local Nuxt docs from ${process.env.NUXT_DOCS_PATH}`) }
-      if (process.env.NUXT_EXAMPLES_PATH) { logger.success(`Using local Nuxt examples from ${process.env.NUXT_EXAMPLES_PATH}`) }
-    }
+    'nuxt-og-image'
   ],
   routeRules: {
     // Pre-render
@@ -26,7 +19,6 @@ export default defineNuxtConfig({
     // '/sitemap.xml': { prerender: true },
     // Redirects
     '/docs': { redirect: '/docs/architecture', prerender: false }
-    // '/docs/architecture': { redirect: '/docs/architecture/overview', prerender: false }
     
   },
   nitro: {

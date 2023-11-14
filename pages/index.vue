@@ -27,13 +27,22 @@ useSeoMeta({
       </template>
 
       <template #title>
-        The Optimized<br><span class="text-primary block lg:inline-block">Shortform Learning Platform</span>
+        The Intuitive<br><span class="text-primary block lg:inline-block">Shortform Learning Platform</span>
       </template>
 
       <template #description>
-        Discite is a platform that optimizes learning for the modern attention span. <br>
+        Discite optimizes learning for the modern attention span. <br> <br>
         We provide shortform content targeted at specific subtopics,<br>
-        with smart sequencing of clips into learning paths that guide you through an important topic. 
+        with smart sequencing ofcontent into learning paths that guide you through a topic. 
+      </template>
+
+      <template #links>
+        <!-- <UButton to="/docs/getting-started/installation" icon="i-ph-rocket-launch-duotone" size="xl">
+          Get Started
+        </UButton> -->
+        <UButton size="xl" color="white" icon="i-ph-arrow-up-right" to="/blog/23f-technigala">
+          Why Discite?
+        </UButton>
       </template>
     </ULandingHero>
 

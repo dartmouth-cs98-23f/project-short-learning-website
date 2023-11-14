@@ -53,26 +53,6 @@ const communityLinks = computed(() => [{
 }
 ])
 
-// const ecosystemLinks = [{
-//   icon: 'i-ph-buildings-duotone',
-//   label: 'Enterprise Support',
-//   to: '/enterprise/support'
-// }, {
-//   icon: 'i-ph-handshake-duotone',
-//   label: 'Nuxt Agencies',
-//   to: '/enterprise/agencies'
-// }, {
-//   icon: 'i-ph-briefcase-duotone',
-//   label: 'Find a Nuxt Job',
-//   to: '/enterprise/jobs'
-// }, {
-//   icon: 'i-ph-graduation-cap-duotone',
-//   label: 'Video Courses',
-//   to: 'https://masteringnuxt.com/nuxt3?ref=nuxt',
-//   target: '_blank'
-// }]
-
-
 const title = page.value.head?.title || page.value.title
 const description = page.value.head?.description || page.value.description
 useSeoMeta({
@@ -84,7 +64,7 @@ useSeoMeta({
 })
 
 defineOgImage({
-  component: 'Docs',
+
   title,
   description,
   headline: breadcrumb.value.length ? breadcrumb.value[breadcrumb.value.length - 1].label : ''

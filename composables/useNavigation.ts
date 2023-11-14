@@ -10,7 +10,7 @@ const _useNavigation = () => {
     children: [{
       label: 'Architecture',
       description: 'Learn how Discite works.',
-      icon: 'i-ph-rocket-launch-duotone',
+      icon: 'i-ph-brackets-angle-duotone',
       to: '/docs/architecture',
       active: route.path.startsWith('/docs/architecture')
     }, {

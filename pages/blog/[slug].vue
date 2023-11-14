@@ -49,14 +49,14 @@ if (article.value.image) {
 
 const socialLinks = computed(() => [{
   icon: 'i-simple-icons-linkedin',
-  to: `https://www.linkedin.com/sharing/share-offsite/?url=https://nuxt.com${article.value._path}`
+  to: `https://www.linkedin.com/sharing/share-offsite/?url=https://discite.tech${article.value._path}`
 }, {
   icon: 'i-simple-icons-twitter',
-  to: `https://twitter.com/intent/tweet?text=I%20found%20this%20article%20interesting%20%20https://nuxt.com${article.value._path}&hashtags=nuxt`
+  to: `https://twitter.com/intent/tweet?text=I%20found%20this%20article%20interesting%20%20https://discite.tech${article.value._path}&hashtags=nuxt`
 }])
 
 function copyLink () {
-  copy(`https://nuxt.com${article.value._path}`, { title: 'Copied to clipboard' })
+  copy(`https://discite.tech${article.value._path}`, { title: 'Copied to clipboard' })
 }
 </script>
 
