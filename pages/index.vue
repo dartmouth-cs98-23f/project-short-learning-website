@@ -27,7 +27,8 @@ useSeoMeta({
       </template>
 
       <template #title>
-        The Intuitive<br><span class="text-primary block lg:inline-block">Shortform Learning Platform</span>
+        <!-- The Intuitive<br><span class="text-primary block lg:inline-block">Shortform Learning Platform</span> -->
+        A Learning Platform<br> <span class="text-primary block lg:inline-block">for the Modern Attention Span</span>
       </template>
 
       <template #description>

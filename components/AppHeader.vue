@@ -4,7 +4,6 @@ import type { Link } from '#ui-pro/types'
 
 const navigation = inject<Ref<NavItem[]>>('navigation')
 
-const stats = useStats()
 const { metaSymbol } = useShortcuts()
 
 const route = useRoute()
@@ -28,6 +27,7 @@ defineProps<{
     <template #logo>
       <!-- <Logo class="block w-auto h-6" @click.right.prevent="$router.push('/')" /> -->
       <!-- TODO: Add Updated Discite logo -->
+      Discite
     </template>
 
     <template #right>
