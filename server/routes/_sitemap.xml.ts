@@ -7,7 +7,7 @@ export default defineEventHandler(async (event: H3Event) => {
   const docs = await serverQueryContent(event).find()
 
   const sitemap = new SitemapStream({
-    hostname: 'https://nuxt.com'
+    hostname: 'https://discite.tech'
   })
   for (const doc of docs) {
     sitemap.write({
