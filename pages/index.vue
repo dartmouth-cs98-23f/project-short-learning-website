@@ -4,7 +4,7 @@ const { data: page } = await useAsyncData('index', () => queryContent('/').findO
 
 const site = useSiteConfig()
 const title = 'Discite: Shortform Learning'
-const description = 'Nuxt is an open source framework that makes web development intuitive and powerful. Create performant and production-grade full-stack web apps and websites with confidence.'
+const description = 'Discite is a platform for short-form content that organizes content into learning paths for intuitive learning.'
 useSeoMeta({
   title,
   ogTitle: title,
