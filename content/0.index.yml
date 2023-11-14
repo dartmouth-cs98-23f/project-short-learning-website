@@ -46,7 +46,7 @@ sections:
         icon: 'i-ph-slack-logo'
         to: '/docs/architecture/backend'
   - title: 'Built by developers<br><span class="text-primary">who love their craft.</span>'
-    description: 'We are a team of six <span class="text-primary">computer science </span> majors.<br/>We have varying interests, and we inspire and motivate each other.'
+    description: 'We are a dynamic team of six <span class="text-primary">computer science </span> majors.<br/>We have varying interests, and we inspire and motivate each other.'
     class: 'dark bg-gray-900'
     align: right
     slot: contributors
