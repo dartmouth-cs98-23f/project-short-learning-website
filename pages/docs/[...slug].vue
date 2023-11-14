@@ -43,12 +43,12 @@ const titleTemplate = computed(() => {
 const communityLinks = computed(() => [{
   icon: 'i-ph-pen-duotone',
   label: 'Edit this page',
-  to: `https://github.com/siavava/discite-website/edit/main/docs/${page?.value?._file?.split('/').slice(1).join('/')}`,
+  to: `https://github.com/dartmouth-cs98-23f/project-short-learning-website/edit/main/content/1.docs/${page?.value?._file?.split('/').slice(1).join('/')}`,
   target: '_blank'
 }, {
   icon: 'i-ph-shooting-star-duotone',
   label: 'View on GitHub',
-  to: 'https://github.com/siavava/discite-website',
+  to: 'https://github.com/dartmouth-cs98-23f/project-short-learning-website',
   target: '_blank'
 }
 ])
