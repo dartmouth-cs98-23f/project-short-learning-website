@@ -2,7 +2,7 @@ navigation: false
 hero:
   cta:
     label: Get Discite
-    to: /
+    to: https://apps.apple.com/us/app/discite/id6471923551
     variant: outline
     icon: i-ph-arrow-right
     size: xs
